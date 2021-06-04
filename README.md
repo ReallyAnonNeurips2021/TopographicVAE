@@ -26,14 +26,14 @@ To rerun the experiments from Figure 4, you can run:
 - `tvae --name 'tvae_Lpartial_mnist'`
 - `tvae --name 'tvae_Lpartial_dsprites'`
 
-To rerun the experiments from Tables 1, you can run:
+To rerun the experiments from Table 1, you can run:
 - `tvae --name 'tvae_Lhalf_mnist'`
 - `tvae --name 'tvae_Lshort_mnist'`
 - `tvae --name 'tvae_L0_mnist'`
 - `tvae --name 'bubbles_mnist'`
 - `tvae --name 'nontvae_mnist'`
 
-To rerun the experiments from Tables 2, you can run:
+To rerun the experiments from Table 2, you can run:
 - `tvae --name 'tvae_Lhalf_dsprites'`
 - `tvae --name 'tvae_Lpartial_dsprites'`
 - `tvae --name 'tvae_Lshort_dsprites'`
@@ -41,7 +41,7 @@ To rerun the experiments from Tables 2, you can run:
 - `tvae --name 'bubbles_dsprites'`
 - `tvae --name 'nontvae_dsprites'`
 
-To runrun the model from Figure 1, you can run:
+To rerun the model from Figure 1, you can run:
 - `tvae --name 'tvae_Lpartial_rotcolor_mnist'`
 
 ## Basics of the framework
@@ -50,7 +50,7 @@ To runrun the model from Figure 1, you can run:
 
 
 #### Model Architecutre Options
-- `'n_caps'`: *int*, Number of independnt capsules
+- `'n_caps'`: *int*, Number of independent capsules
 - `'cap_dim'`: *int*, Size of each capsule
 - `'n_transforms'`: *int*, Length of the total transformation sequence (denoted S in the paper)
 - `'mu_init'`: *int*, Initalization value for mu parameter
@@ -62,7 +62,7 @@ To runrun the model from Figure 1, you can run:
 - `'lr'`: *float*, learning rate
 - `'momentum'`: *float*, standard momentum used in SGD
 - `'max_epochs'`: *int*, total training epochs
-- `'eval_epochs'`: *int*, epochs between evaluation on the test (for MNIST)
+- `'eval_epochs'`: *int*, epochs between evaluation on the testset (for MNIST)
 - `'batch_size'`: *int*, number of samples per batch
 - `'n_is_samples'`: *int*, number of importance samples when computing the log-likelihood on MNIST.
 - `'max_transform_len'`: *int*, (for dSprites) controls the subset of the dataset
